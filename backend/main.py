@@ -17,3 +17,19 @@ app.add_middleware(
 )
 
 """post and get user"""
+
+@app.post("/login")
+def login(user: UserCreate):
+
+    """post logic"""
+    
+    db.add(new_user)
+    db.commit()
+    return {"message": "Inserted Successfully"}
+
+@app.get("/users")
+def get_users():
+    db = SessionLocal()
+
+    """get logic"""
+    return users
