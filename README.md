@@ -58,7 +58,7 @@ Create a database for this project.
 Example:
 
 ```sql
-CREATE DATABASE student_db;
+CREATE DATABASE school_demo;
 ```
 
 Update the database connection details in `backend/database.py`.
@@ -66,7 +66,7 @@ Update the database connection details in `backend/database.py`.
 Example:
 
 ```python
-DATABASE_URL = "mysql+pymysql://username:password@localhost/student_db"
+DATABASE_URL = "mysql+pymysql://username:password@localhost/school_demo"
 ```
 
 Replace:
