@@ -1,6 +1,6 @@
 Below is a complete **README.md** that you can directly copy into your GitHub repository.
 
-# 🚀 Simple Full Stack Notes App
+# 🚀 Simple Full Stack Login page
 
 <img width="1233" height="897" alt="Screenshot 2026-08-03 191134" src="https://github.com/user-attachments/assets/15862a43-66fe-48b1-91fe-b010dbce4ba6" />
 
@@ -73,7 +73,7 @@ Replace:
 
 * `username`
 * `password`
-* `student_db`
+* `school_demo`
 
 with your own MySQL credentials.
 
@@ -154,7 +154,7 @@ After activation, your terminal should look similar to:
 Install all required dependencies.
 
 ```bash
-pip install -r requirements.txt
+pip install fastapi uvicorn sqlalchemy pymysql
 ```
 
 ---
@@ -254,8 +254,8 @@ simple-full-stack/
 │   ├── database.py
 │   ├── models.py
 │   ├── schemas.py
-│   ├── requirements.txt
-│   └── ...
+│  
+│   
 │
 └── frontend/
     ├── src/
@@ -283,7 +283,7 @@ venv\Scripts\activate             # CMD
 # OR
 venv\Scripts\Activate.ps1         # PowerShell
 
-pip install -r requirements.txt
+pip install fastapi uvicorn sqlalchemy pymysql
 
 uvicorn main:app --reload
 ```
