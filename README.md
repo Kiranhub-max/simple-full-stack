@@ -2,6 +2,9 @@ Below is a complete **README.md** that you can directly copy into your GitHub re
 
 # 🚀 Simple Full Stack Notes App
 
+<img width="1233" height="897" alt="Screenshot 2026-08-03 191134" src="https://github.com/user-attachments/assets/15862a43-66fe-48b1-91fe-b010dbce4ba6" />
+
+
 A beginner-friendly Full Stack CRUD application built using:
 
 * ⚛️ React (Frontend)
@@ -429,8 +432,4 @@ By completing this project, you will learn:
 * Decoupled Architecture
 * Git & GitHub Workflow
 
----
-
-## Happy Coding! 🎉
-
-You can further improve this README later by adding screenshots of the application, GIFs, or API examples, but this version is an excellent starting point for beginner students.
+  
